@@ -5,17 +5,21 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import axios from 'axios';
 import Error from './Error';
+import content from './content';
 
 axios
   .get('content.json')
-  .then(response =>
+  .then(response => {
+    content.data = response.data;
+    Object.freeze(content);
+
     ReactDOM.render(
       <React.StrictMode>
-        <App content={response.data} />
+        <App />
       </React.StrictMode>,
       document.getElementById('root'),
-    ),
-  )
+    );
+  })
   .catch(error => ReactDOM.render(<Error />, document.getElementById('root')));
 
 // If you want your app to work offline and load faster, you can change

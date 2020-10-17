@@ -1,11 +1,9 @@
 import React from 'react';
 import './App.css';
+import content from './content';
 
-interface AppProps {
-  content: any;
-}
-
-function App(props: AppProps) {
+function App() {
+  console.log(content.data);
   return <div className="App">App started</div>;
 }
 
