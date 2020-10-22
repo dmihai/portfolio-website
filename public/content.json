@@ -1,0 +1,19 @@
+{
+  "version": "0.1",
+  "config": {},
+  "photos": [
+    {
+      "id": "01",
+      "name": "name",
+      "path": "path/to/file"
+    }
+  ],
+  "pages": [
+    {
+      "name": "Home",
+      "link": "home",
+      "type": "carusel",
+      "photos": ["01", "02", "03"]
+    }
+  ]
+}

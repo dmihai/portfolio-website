@@ -1,0 +1,23 @@
+.image--with-cover {
+  object-fit: cover;
+}
+
+.animation--fade {
+  transition: opacity 500ms;
+  transition-timing-function: linear;
+  /* transition-timing-function: cubic-bezier(
+    0.645,
+    0.045,
+    0.355,
+    1
+  ); /* easeInOutCubic */
+  /*will-change: opacity; */
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.visible {
+  opacity: 1;
+}
