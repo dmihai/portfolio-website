@@ -4,8 +4,38 @@
   "photos": [
     {
       "id": "01",
-      "name": "name",
-      "path": "path/to/file"
+      "name": "japan1",
+      "path": "img/DSC_09429.jpg"
+    },
+    {
+      "id": "02",
+      "name": "japan2",
+      "path": "img/DSC_09917.jpg"
+    },
+    {
+      "id": "03",
+      "name": "japan3",
+      "path": "img/DSC_09959.jpg"
+    },
+    {
+      "id": "04",
+      "name": "japan4",
+      "path": "img/DSC_10157.jpg"
+    },
+    {
+      "id": "05",
+      "name": "japan5",
+      "path": "img/DSC_10223.jpg"
+    },
+    {
+      "id": "06",
+      "name": "japan6",
+      "path": "img/DSC_10323.jpg"
+    },
+    {
+      "id": "07",
+      "name": "japan7",
+      "path": "img/DSC_10409.jpg"
     }
   ],
   "pages": [
