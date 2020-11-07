@@ -8,7 +8,7 @@ import Error from './Error';
 import content from './content';
 
 axios
-  .get('content.json')
+  .get('./content.json')
   .then(response => {
     content.data = response.data;
     Object.freeze(content);
